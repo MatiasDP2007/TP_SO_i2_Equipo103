@@ -16,6 +16,54 @@ Respuesta:
   b-Si se puede realizar,pero para eso BETA tuvo que aceptar los cambios del pull requests de GAMMA y luego ALFA un fetch and merge del repositorio actualizado.
   c-Si se puede siempre y cuando el repositorio principal(Beta) se mantenga actualizado a los cambios. 
   d-Solo se perderian los datos si la persona que solicito el pull request, elimina algun archivo o modifica algo que ya estaba guardado.
-  
-  
+  e- Pasos :
+
+   Beta(Matias Di Pino)
+  -Crea repositorio en Github
+  -Crea archivos y realiza desde la consola de git
+   Git clone "link del repo" 
+   Git add . -Matias Di Pino
+   Git commit -m "commit"
+   Git push - Matias Di Pino
+
+   Gamma (Matias Sposaro)
+  -Realiza los mismos pasos para clonar el repo
+  -Edita archivo de texto y lo pushea
+  -Solicita un pull request para actualizar el repositorio
+
+    Beta (Matias Di Pino)
+  -Acepta el Pull request asi se actualizan los cambios
+
+   Alfa(Fausto Forecherio)
+  -Observa que su repositorio esta un commit mas atras que el repo principal
+  -Descarga el archivo actualizado
+  -Edita el archivo de texto
+  -Solicita pull request para actualizar el repo
+
+    Beta (Matias Di Pino)
+  -Acepta el Pull request asi se actualizan los cambios
+  -Crea un nuevo archivo para las respuestas, carga los nombres de los participantes y realiza un commit
+
+    Gamma (Matias Sposaro)
+  -Observa que su repositorio esta un commit mas atras que el repo principal
+  -Actualiza su repo y carga las respuestas A y B
+  -Solicita un pull request para actualizar el repositorio
+
+    Beta (Matias Di Pino)
+  -Acepta el Pull request asi se actualizan los cambios
+  -Responde las preguntas C y D
+  -Realiza un commit asi los otros participantes ven que su repositorio no esta actualizado
+
+    Alfa(Fausto Forecherio)
+   -Observa que su repositorio esta un commit mas atras que el repo principal
+   -Actualiza su repo y carga las respuestas A,B,C y D
+   -Rresponde las preguntas E
+   -Solicita un pull request para actualizar el repo
+
+    Beta(Matias Di Pino)
+    -Acepta el Pull request asi se actualizan los cambios
+
+    Gamma (Matias Sposaro)
+    -Observa que su repositorio esta un commit mas atras que el repo principal
+    -Actualiza su repositorio
   

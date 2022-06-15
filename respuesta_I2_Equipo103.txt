@@ -9,3 +9,8 @@ d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quie
 el fork?
 e- realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
 orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos 
+
+Respuesta:
+  
+  a-Para actualizar mi repositorio tengo que clickear en "Fech upstream" y luego en "Fetch and merge".
+  b-Si se puede realizar,pero para eso BETA tuvo que aceptar los cambios del pull requests de GAMMA y luego ALFA un fetch and merge del repositorio actualizado.
